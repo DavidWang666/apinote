@@ -8,7 +8,7 @@
 ## 安装
 
 ```
-composer require DavidWang/apinote
+composer require david-wang/apinote
 ```
 
 ## 使用
