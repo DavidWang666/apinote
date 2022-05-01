@@ -1,0 +1,12 @@
+/vendor/
+composer.lock
+*.cache
+*.log
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpstorm project files
+.idea
+ui/default/*.json
+ui/default/index.html
