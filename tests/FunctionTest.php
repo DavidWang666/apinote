@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Chengang\ApiNote\Test;
+namespace DavidWang\ApiNote\Test;
 
 use Mockery;
 use PHPUnit\Framework\TestCase;

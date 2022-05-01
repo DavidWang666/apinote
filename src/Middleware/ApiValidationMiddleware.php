@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace ChenGang\ApiNote\Middleware;
+namespace DavidWang\ApiNote\Middleware;
 
-use ChenGang\ApiNote\Exception\ApiNoteException;
-use ChenGang\ApiNote\Validation\ValidationApi;
+use DavidWang\ApiNote\Exception\ApiNoteException;
+use DavidWang\ApiNote\Validation\ValidationApi;
 use FastRoute\Dispatcher;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\HttpServer\Contract\RequestInterface;

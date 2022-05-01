@@ -9,13 +9,13 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace ChenGang\ApiNote\Validation;
+namespace DavidWang\ApiNote\Validation;
 
-use ChenGang\ApiNote\Annotation\Body;
-use ChenGang\ApiNote\Annotation\FormData;
-use ChenGang\ApiNote\Annotation\Header;
-use ChenGang\ApiNote\Annotation\Query;
-use ChenGang\ApiNote\ApiAnnotation;
+use DavidWang\ApiNote\Annotation\Body;
+use DavidWang\ApiNote\Annotation\FormData;
+use DavidWang\ApiNote\Annotation\Header;
+use DavidWang\ApiNote\Annotation\Query;
+use DavidWang\ApiNote\ApiAnnotation;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Hyperf\Utils\ApplicationContext;

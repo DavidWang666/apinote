@@ -8,7 +8,7 @@
 ## 安装
 
 ```
-composer require chengang/apinote
+composer require DavidWang/apinote
 ```
 
 ## 使用
@@ -16,7 +16,7 @@ composer require chengang/apinote
 #### 1. 发布配置文件
 
 ```bash
-php bin/hyperf.php vendor:publish chengang/apinote
+php bin/hyperf.php vendor:publish DavidWang/apinote
 
 # hyperf/validation 的依赖发布
 
@@ -38,7 +38,7 @@ php bin/hyperf.php vendor:publish hyperf/view-engine
 ```php
 // config/autoload/middlewares.php
 
-ChenGang\ApiNote\Middleware\ApiValidationMiddleware::class;
+DavidWang\ApiNote\Middleware\ApiValidationMiddleware::class;
 ```
 
 ### 4. 校验规则的定义
@@ -103,16 +103,16 @@ class UserController {}
 declare(strict_types=1);
 namespace App\Controller;
 
-use ChenGang\ApiNote\Annotation\ApiController;
-use ChenGang\ApiNote\Annotation\ApiResponse;
-use ChenGang\ApiNote\Annotation\ApiVersion;
-use ChenGang\ApiNote\Annotation\Body;
-use ChenGang\ApiNote\Annotation\DeleteApi;
-use ChenGang\ApiNote\Annotation\FormData;
-use ChenGang\ApiNote\Annotation\GetApi;
-use ChenGang\ApiNote\Annotation\Header;
-use ChenGang\ApiNote\Annotation\PostApi;
-use ChenGang\ApiNote\Annotation\Query;
+use DavidWang\ApiNote\Annotation\ApiController;
+use DavidWang\ApiNote\Annotation\ApiResponse;
+use DavidWang\ApiNote\Annotation\ApiVersion;
+use DavidWang\ApiNote\Annotation\Body;
+use DavidWang\ApiNote\Annotation\DeleteApi;
+use DavidWang\ApiNote\Annotation\FormData;
+use DavidWang\ApiNote\Annotation\GetApi;
+use DavidWang\ApiNote\Annotation\Header;
+use DavidWang\ApiNote\Annotation\PostApi;
+use DavidWang\ApiNote\Annotation\Query;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Utils\ApplicationContext;
 

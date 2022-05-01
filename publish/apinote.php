@@ -21,7 +21,7 @@ return [
     'ignore' => function ($controller, $action) {
         return false;
     },
-    //是否启用接口验证 为true时将启用 ChenGang\ApiNote\Middleware\ApiValidationMiddleware 中间件
+    //是否启用接口验证 为true时将启用 DavidWang\ApiNote\Middleware\ApiValidationMiddleware 中间件
     'api_validate' => true,
     //接口文档路由
     'route' => [
@@ -62,7 +62,7 @@ return [
         'info' => [
             'description' => 'swagger api desc',
             'version' => '1.0.0',
-            'title' => 'ChenGang API DOC',
+            'title' => 'DavidWang API DOC',
         ],
         'host' => '',
         'schemes' => ['http'],

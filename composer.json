@@ -1,5 +1,5 @@
 {
-    "name": "chengang/apinote",
+    "name": "DavidWang/apinote",
     "description": "A swagger library for Hyperf.",
     "license": "MIT",
     "keywords": [
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChenGang\\ApiNote\\": "src/"
+            "DavidWang\\ApiNote\\": "src/"
         },
         "files": [
             "./src/function.php"
@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ChenGang\\ApiNote\\Test\\": "tests/"
+            "DavidWang\\ApiNote\\Test\\": "tests/"
         }
     },
     "minimum-stability": "dev",
@@ -39,7 +39,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "ChenGang\\ApiNote\\ConfigProvider"
+            "config": "DavidWang\\ApiNote\\ConfigProvider"
         }
     },
     "require-dev": {

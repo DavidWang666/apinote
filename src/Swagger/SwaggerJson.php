@@ -10,23 +10,23 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace ChenGang\ApiNote\Swagger;
+namespace DavidWang\ApiNote\Swagger;
 
-use ChenGang\ApiNote\Annotation\ApiController;
-use ChenGang\ApiNote\Annotation\ApiDefinition;
-use ChenGang\ApiNote\Annotation\ApiDefinitions;
-use ChenGang\ApiNote\Annotation\ApiResponse;
-use ChenGang\ApiNote\Annotation\ApiServer;
-use ChenGang\ApiNote\Annotation\ApiVersion;
-use ChenGang\ApiNote\Annotation\Body;
-use ChenGang\ApiNote\Annotation\FormData;
-use ChenGang\ApiNote\Annotation\GetApi;
-use ChenGang\ApiNote\Annotation\Header;
-use ChenGang\ApiNote\Annotation\Mapping;
-use ChenGang\ApiNote\Annotation\Param;
-use ChenGang\ApiNote\Annotation\Query;
-use ChenGang\ApiNote\Annotation\Story;
-use ChenGang\ApiNote\ApiAnnotation;
+use DavidWang\ApiNote\Annotation\ApiController;
+use DavidWang\ApiNote\Annotation\ApiDefinition;
+use DavidWang\ApiNote\Annotation\ApiDefinitions;
+use DavidWang\ApiNote\Annotation\ApiResponse;
+use DavidWang\ApiNote\Annotation\ApiServer;
+use DavidWang\ApiNote\Annotation\ApiVersion;
+use DavidWang\ApiNote\Annotation\Body;
+use DavidWang\ApiNote\Annotation\FormData;
+use DavidWang\ApiNote\Annotation\GetApi;
+use DavidWang\ApiNote\Annotation\Header;
+use DavidWang\ApiNote\Annotation\Mapping;
+use DavidWang\ApiNote\Annotation\Param;
+use DavidWang\ApiNote\Annotation\Query;
+use DavidWang\ApiNote\Annotation\Story;
+use DavidWang\ApiNote\ApiAnnotation;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Logger\LoggerFactory;

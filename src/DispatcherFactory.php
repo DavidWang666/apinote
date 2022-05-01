@@ -10,12 +10,12 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace ChenGang\ApiNote;
+namespace DavidWang\ApiNote;
 
-use ChenGang\ApiNote\Annotation\ApiController;
-use ChenGang\ApiNote\Annotation\ApiVersion;
-use ChenGang\ApiNote\Controller\SwaggerController;
-use ChenGang\ApiNote\Middleware\ApiValidationMiddleware;
+use DavidWang\ApiNote\Annotation\ApiController;
+use DavidWang\ApiNote\Annotation\ApiVersion;
+use DavidWang\ApiNote\Controller\SwaggerController;
+use DavidWang\ApiNote\Middleware\ApiValidationMiddleware;
 use Hyperf\Di\Annotation\AnnotationCollector;
 use Hyperf\HttpServer\Annotation\Controller;
 use Hyperf\HttpServer\Annotation\Mapping;

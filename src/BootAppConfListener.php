@@ -10,10 +10,10 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace ChenGang\ApiNote;
+namespace DavidWang\ApiNote;
 
-use ChenGang\ApiNote\Swagger\SwaggerJson;
-use ChenGang\ApiNote\Controller\SwaggerController;
+use DavidWang\ApiNote\Swagger\SwaggerJson;
+use DavidWang\ApiNote\Controller\SwaggerController;
 use Closure;
 use Exception;
 use Hyperf\Contract\ConfigInterface;
